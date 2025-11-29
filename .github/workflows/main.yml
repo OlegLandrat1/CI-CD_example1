@@ -36,6 +36,7 @@ jobs:
         run: npm ci --legacy-peer-deps --no-audit --force --verbose #Устанавливает зависимости из lock-файла
 
       - name: Run tests
+        run: npm run test
         run: npm test
       
    
